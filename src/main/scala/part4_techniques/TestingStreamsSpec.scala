@@ -115,7 +115,6 @@ class TestingStreamsSpec extends TestKit(ActorSystem("TestingAkkaStreams"))
         .request(4) // don't forget this!
         .expectNext(2, 10, 84, 198)
         .expectComplete()
-
     }
   }
 }

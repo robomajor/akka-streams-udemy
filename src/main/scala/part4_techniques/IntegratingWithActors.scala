@@ -6,6 +6,7 @@ import akka.stream.scaladsl.{Flow, Sink, Source}
 import akka.util.Timeout
 
 import scala.concurrent.duration._
+import scala.language.postfixOps
 
 object IntegratingWithActors extends App {
 
